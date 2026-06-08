@@ -1,0 +1,33 @@
+# Python virtual environments & binary distributions
+.venv/
+resume/
+python-embed/
+python-embed.zip
+python-embed.zip.*
+
+# Local data & dataset downloads
+dataset/
+cig_ps/
+*.zip
+*.csv
+
+# Python caches and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints & notebooks
+.ipynb_checkpoints/
+solution.ipynb
+verify_weights.py
+
+# Local prediction graphs/temporary files
+eda_stats.png
+sample_images.png
+training_curves.png
+qualitative_results.png
+feature_maps.png
+
+# Large weight checkpoints (Optional: comment this out if you want to push your .pth file to GitHub)
+best_crnn_model.pth
